@@ -1,0 +1,47 @@
+{
+  "theme": {
+    "mode": "dark",
+    "colors": {
+      "primary": "#3B82F6",
+      "secondary": "#6366F1",
+      "background": "#1E1E1E",
+      "surface": "#2D2D2D",
+      "text": "#FFFFFF",
+      "text_secondary": "#A0A0A0",
+      "success": "#22C55E",
+      "warning": "#F59E0B",
+      "error": "#EF4444"
+    }
+  },
+  "fonts": {
+    "family": "Segoe UI",
+    "size": {
+      "small": 10,
+      "normal": 12,
+      "large": 14,
+      "title": 18,
+      "heading": 24
+    }
+  },
+  "layout": {
+    "padding": 10,
+    "margin": 5,
+    "border_radius": 8
+  },
+  "canvas": {
+    "display_size": 280,
+    "internal_size": 28,
+    "default_brush_size": 15,
+    "min_brush_size": 5,
+    "max_brush_size": 30
+  },
+  "probability_bars": {
+    "height": 20,
+    "width": 200,
+    "show_percentage": true
+  },
+  "animations": {
+    "enabled": true,
+    "duration_ms": 200
+  }
+}

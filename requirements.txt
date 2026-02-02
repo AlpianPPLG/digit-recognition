@@ -1,0 +1,49 @@
+# ===========================================
+# Digit Recognition - Python Dependencies
+# ===========================================
+# Core libraries for mathematical operations
+# and neural network implementation from scratch
+# ===========================================
+
+# ---------------------------------------------
+# Core Dependencies (Required)
+# ---------------------------------------------
+
+# NumPy - Mathematical operations & matrix algebra
+# Foundation for all neural network computations
+numpy>=1.24.0,<2.0.0
+
+# Pillow - Image processing library
+# For loading, manipulating, and saving images
+Pillow>=10.0.0
+
+# ---------------------------------------------
+# GUI Dependencies
+# ---------------------------------------------
+
+# CustomTkinter - Modern Tkinter UI
+# Provides modern-looking widgets for the GUI
+customtkinter>=5.2.0
+
+# Matplotlib - Visualization & Charts
+# For training progress charts and probability bars
+matplotlib>=3.7.0
+
+# ---------------------------------------------
+# Optional: Advanced Features
+# ---------------------------------------------
+
+# OpenCV - Advanced image processing (optional)
+# Uncomment if webcam support is needed
+# opencv-python>=4.8.0
+
+# ---------------------------------------------
+# Utility Dependencies
+# ---------------------------------------------
+
+# tqdm - Progress bars for training
+tqdm>=4.65.0
+
+# Click - CLI interface (optional)
+# For command-line tools
+# click>=8.1.0

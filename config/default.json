@@ -1,0 +1,25 @@
+{
+  "app_name": "Digit Recognition",
+  "version": "1.0.0",
+  "window": {
+    "width": 1200,
+    "height": 800,
+    "min_width": 1024,
+    "min_height": 700,
+    "title": "Digit Recognition - AI from Scratch"
+  },
+  "canvas": {
+    "size": 280,
+    "brush_size": 15,
+    "background_color": "#000000",
+    "stroke_color": "#FFFFFF"
+  },
+  "model": {
+    "default_path": "models/default.npz",
+    "auto_load": true
+  },
+  "theme": {
+    "mode": "dark",
+    "color_scheme": "blue"
+  }
+}

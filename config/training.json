@@ -1,0 +1,47 @@
+{
+    "network": {
+        "architecture": [784, 128, 64, 10],
+        "activations": ["relu", "relu", "softmax"],
+        "initializer": "he",
+        "dropout_rate": 0.2
+    },
+    "training": {
+        "epochs": 20,
+        "batch_size": 32,
+        "learning_rate": 0.001,
+        "optimizer": "adam",
+        "loss_function": "cross_entropy"
+    },
+    "optimizer_params": {
+        "adam": {
+            "beta1": 0.9,
+            "beta2": 0.999,
+            "epsilon": 1e-8
+        },
+        "sgd": {
+            "momentum": 0.9
+        }
+    },
+    "regularization": {
+        "l2_lambda": 0.0001,
+        "dropout_rate": 0.2
+    },
+    "learning_rate_schedule": {
+        "enabled": true,
+        "type": "step_decay",
+        "decay_rate": 0.95,
+        "decay_steps": 5
+    },
+    "early_stopping": {
+        "enabled": true,
+        "patience": 5,
+        "min_delta": 0.001,
+        "monitor": "val_loss"
+    },
+    "checkpointing": {
+        "enabled": true,
+        "save_best_only": true,
+        "save_freq": 1
+    },
+    "validation_split": 0.1
+}

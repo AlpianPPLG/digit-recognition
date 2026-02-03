@@ -10,4 +10,13 @@ This module handles all image preprocessing tasks:
 - Data augmentation
 """
 
-__all__ = []
+from .mnist_loader import MNISTLoader, split_data
+from .image_preprocessor import ImagePreprocessor, DataAugmenter
+
+
+__all__ = [
+    'MNISTLoader',
+    'split_data',
+    'ImagePreprocessor',
+    'DataAugmenter',
+]

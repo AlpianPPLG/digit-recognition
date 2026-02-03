@@ -10,4 +10,14 @@ This module contains all GUI-related components:
 - Prediction display
 """
 
-__all__ = []
+from .main_window import MainWindow
+from .drawing_canvas import DrawingCanvas, DigitPreview
+from .app import DigitRecognitionApp, main
+
+__all__ = [
+    'MainWindow',
+    'DrawingCanvas',
+    'DigitPreview',
+    'DigitRecognitionApp',
+    'main'
+]

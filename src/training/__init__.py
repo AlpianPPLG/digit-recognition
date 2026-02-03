@@ -10,4 +10,19 @@ This module contains training-related functionality:
 - Training callbacks
 """
 
-__all__ = []
+from .trainer import (
+    EarlyStopping,
+    LearningRateScheduler,
+    TrainingHistory,
+    Trainer,
+    train_model,
+)
+
+
+__all__ = [
+    'EarlyStopping',
+    'LearningRateScheduler',
+    'TrainingHistory',
+    'Trainer',
+    'train_model',
+]

@@ -20,6 +20,10 @@ from .losses import CrossEntropyLoss, MSELoss
 from .optimizers import SGD, SGDMomentum, Adam, RMSprop
 from .initializers import xavier_init, he_init, random_init
 from .metrics import accuracy, precision, recall, f1_score, confusion_matrix
+from .serialization import (
+    ModelSerializer, CheckpointManager, ModelExporter,
+    save_model, load_model, save_weights, load_weights
+)
 
 __all__ = [
     # Network
@@ -58,4 +62,13 @@ __all__ = [
     'recall',
     'f1_score',
     'confusion_matrix',
+    
+    # Serialization
+    'ModelSerializer',
+    'CheckpointManager',
+    'ModelExporter',
+    'save_model',
+    'load_model',
+    'save_weights',
+    'load_weights',
 ]
